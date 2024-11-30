@@ -40,4 +40,8 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 end
 
-
+gem 'devise'
+gem 'jwt'
+gem 'twilio-ruby'
+gem 'dotenv-rails', groups: [:development, :test]
+gem 'rack-cors'
